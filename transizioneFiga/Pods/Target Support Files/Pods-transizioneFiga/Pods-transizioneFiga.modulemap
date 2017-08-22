@@ -1,0 +1,6 @@
+framework module Pods_transizioneFiga {
+  umbrella header "Pods-transizioneFiga-umbrella.h"
+
+  export *
+  module * { export * }
+}

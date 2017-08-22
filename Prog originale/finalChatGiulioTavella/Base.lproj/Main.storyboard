@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Mtn-qU-lTN">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="segoeui.ttf">
+            <string>SegoeUI</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Controller Iniziale-->
+        <scene sceneID="cqd-aZ-HAE">
+            <objects>
+                <viewController id="Mtn-qU-lTN" customClass="ControllerIniziale" customModule="finalChatGiulioTavella" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TJH-PH-dgJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="vTj-7w-apD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ljj-Ow-bEL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Inserisci il numero di telefono per ricevere un messaggio con un codice." textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="d7q-FV-e9q">
+                                <rect key="frame" x="16" y="131" width="343" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="SegoeUI" family="Segoe UI" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U5p-yo-LY8">
+                                <rect key="frame" x="0.0" y="221" width="375" height="446"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="numero" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E3y-Tf-kIH" customClass="DTTextField" customModule="finalChatGiulioTavella" customModuleProvider="target">
+                                        <rect key="frame" x="80" y="190" width="215" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="SegoeUI" family="Segoe UI" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="+39" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ci5-9f-R1Y" customClass="DTTextField" customModule="finalChatGiulioTavella" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="190" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dwe-fi-1cS">
+                                        <rect key="frame" x="320" y="190" width="47" height="47"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button" image="Done"/>
+                                        <connections>
+                                            <action selector="pressDoneButton:" destination="Mtn-qU-lTN" eventType="touchUpInside" id="mOA-U2-Edb"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="Dwe-fi-1cS" id="9E6-do-eRP"/>
+                        <outlet property="label" destination="d7q-FV-e9q" id="cVv-11-Xf7"/>
+                        <outlet property="numero" destination="E3y-Tf-kIH" id="bw2-Qp-S6W"/>
+                        <outlet property="scrollView" destination="U5p-yo-LY8" id="J8c-UL-T17"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="upT-ck-tdX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-39.200000000000003" y="-580.65967016491754"/>
+        </scene>
+        <!--Controller Iniziale Codice-->
+        <scene sceneID="Ct4-Yk-uvq">
+            <objects>
+                <viewController restorationIdentifier="VC2" storyboardIdentifier="VC2" id="J74-GV-Pi0" customClass="ControllerInizialeCodice" customModule="finalChatGiulioTavella" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="euf-74-i3N"/>
+                        <viewControllerLayoutGuide type="bottom" id="tnw-F3-aXT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XVH-dt-a8A">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Inserisci il codice ricevuto per messaggio." textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="pZd-q2-t0F">
+                                <rect key="frame" x="16" y="131" width="343" height="88"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="SegoeUI" family="Segoe UI" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x4v-c3-4Gk">
+                                <rect key="frame" x="0.0" y="221" width="375" height="446"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="numero" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4vc-jt-EuZ" customClass="DTTextField" customModule="finalChatGiulioTavella" customModuleProvider="target">
+                                        <rect key="frame" x="21" y="209" width="273" height="28"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="273" id="vaJ-mF-0sZ"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="SegoeUI" family="Segoe UI" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fm5-rY-zz9">
+                                        <rect key="frame" x="308" y="199" width="49" height="49"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="49" id="cTk-SL-CDN"/>
+                                            <constraint firstAttribute="width" constant="49" id="zaQ-Z7-wdt"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="Done"/>
+                                        <connections>
+                                            <action selector="pressDoneButton:" destination="Mtn-qU-lTN" eventType="touchUpInside" id="aEp-ko-SF0"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="4vc-jt-EuZ" firstAttribute="centerY" secondItem="x4v-c3-4Gk" secondAttribute="centerY" id="1SJ-5b-v6H"/>
+                                    <constraint firstAttribute="trailing" secondItem="Fm5-rY-zz9" secondAttribute="trailing" constant="18" id="4Ve-XC-LuL"/>
+                                    <constraint firstAttribute="bottom" secondItem="Fm5-rY-zz9" secondAttribute="bottom" constant="198" id="NBi-X1-417"/>
+                                    <constraint firstItem="4vc-jt-EuZ" firstAttribute="centerY" secondItem="Fm5-rY-zz9" secondAttribute="centerY" id="Y8B-3f-lTQ"/>
+                                    <constraint firstItem="4vc-jt-EuZ" firstAttribute="leading" secondItem="x4v-c3-4Gk" secondAttribute="leading" constant="21" id="ZBx-hS-2mw"/>
+                                    <constraint firstItem="Fm5-rY-zz9" firstAttribute="leading" secondItem="4vc-jt-EuZ" secondAttribute="trailing" constant="14" id="fzd-tx-lS6"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="x4v-c3-4Gk" firstAttribute="centerX" secondItem="pZd-q2-t0F" secondAttribute="centerX" id="YSb-fz-Itu"/>
+                            <constraint firstItem="pZd-q2-t0F" firstAttribute="top" secondItem="euf-74-i3N" secondAttribute="bottom" constant="111" id="aP8-Qq-rai"/>
+                            <constraint firstAttribute="trailing" secondItem="x4v-c3-4Gk" secondAttribute="trailing" id="h5K-uK-RNt"/>
+                            <constraint firstItem="x4v-c3-4Gk" firstAttribute="bottom" secondItem="tnw-F3-aXT" secondAttribute="top" id="n7X-AO-Gcb"/>
+                            <constraint firstItem="x4v-c3-4Gk" firstAttribute="top" secondItem="pZd-q2-t0F" secondAttribute="bottom" constant="2" id="nPQ-ur-VKO"/>
+                            <constraint firstItem="pZd-q2-t0F" firstAttribute="leading" secondItem="XVH-dt-a8A" secondAttribute="leadingMargin" id="pNI-6Q-Wnf"/>
+                            <constraint firstItem="x4v-c3-4Gk" firstAttribute="leading" secondItem="XVH-dt-a8A" secondAttribute="leading" id="qOx-Ru-4F0"/>
+                            <constraint firstItem="x4v-c3-4Gk" firstAttribute="top" secondItem="XVH-dt-a8A" secondAttribute="top" constant="221" id="yHN-M5-x7d"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uFT-CG-XK6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="584.79999999999995" y="-581.55922038980509"/>
+        </scene>
+        <!--Messages Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MessagesController" customModule="finalChatGiulioTavella" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pl1-7q-2N1">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="vXo-f5-5K8">
+                            <connections>
+                                <action selector="pressLogOutButton:" destination="BYZ-38-t0r" id="BJ4-H7-0Ph"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="newMessage" id="e62-r6-iuU">
+                            <connections>
+                                <action selector="pressNewMessage:" destination="BYZ-38-t0r" id="vK8-sP-HmY"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="logOutButton" destination="vXo-f5-5K8" id="MFR-0C-RaM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1908" y="-581"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Done" width="150" height="150"/>
+        <image name="newMessage" width="23" height="23"/>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_finalChatGiulioTavella {
+  umbrella header "Pods-finalChatGiulioTavella-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88C5576B1F4AD1C2007925C0 /* ControllerIniziale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C5576A1F4AD1C2007925C0 /* ControllerIniziale.swift */; };
+		88C5577D1F4AD700007925C0 /* DTTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C5577C1F4AD700007925C0 /* DTTextField.swift */; };
+		88C557811F4ADBBC007925C0 /* segoeui.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88C557801F4ADB39007925C0 /* segoeui.ttf */; };
+		88C557A61F4B0BF3007925C0 /* ControllerInizialeCodice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C557A51F4B0BF3007925C0 /* ControllerInizialeCodice.swift */; };
+		88C557A81F4B1228007925C0 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C557A71F4B1228007925C0 /* Util.swift */; };
+		B608FF451EDC7DC40019E475 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = B608FF441EDC7DC40019E475 /* Message.swift */; };
+		B608FF471EDC7EC70019E475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B608FF461EDC7EC70019E475 /* Assets.xcassets */; };
+		B608FF491EDD8CDF0019E475 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B608FF481EDD8CDF0019E475 /* ChatMessageCell.swift */; };
+		B608FF4B1EDD8D7C0019E475 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B608FF4A1EDD8D7C0019E475 /* UserCell.swift */; };
+		B60E78F51EDC7313001D0128 /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60E78F41EDC7313001D0128 /* ChatLogController.swift */; };
+		B6362F041ED999BA00C40EE4 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6362F031ED999BA00C40EE4 /* Extension.swift */; };
+		B6C71CC41EC8D9DC00C3167C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6C71CC31EC8D9DC00C3167C /* GoogleService-Info.plist */; };
+		B6C71CC61ECA4C0400C3167C /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C71CC51ECA4C0400C3167C /* NewMessageController.swift */; };
+		B6C74D0E1EC3A8BD0085C4B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C74D0D1EC3A8BD0085C4B6 /* AppDelegate.swift */; };
+		B6C74D101EC3A8BD0085C4B6 /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C74D0F1EC3A8BD0085C4B6 /* MessagesController.swift */; };
+		B6C74D131EC3A8BD0085C4B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C74D111EC3A8BD0085C4B6 /* Main.storyboard */; };
+		B6C74D161EC3A8BD0085C4B6 /* finalChatGiulioTavella.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6C74D141EC3A8BD0085C4B6 /* finalChatGiulioTavella.xcdatamodeld */; };
+		B6C74D1B1EC3A8BD0085C4B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C74D191EC3A8BD0085C4B6 /* LaunchScreen.storyboard */; };
+		B6C74D241EC3AB6B0085C4B6 /* LogInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C74D231EC3AB6B0085C4B6 /* LogInController.swift */; };
+		B6EC28881ECD7CB500A321C2 /* LoginController+handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EC28871ECD7CB500A321C2 /* LoginController+handlers.swift */; };
+		B6FFA0A01ECA55DB0083A1AB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FFA09F1ECA55DB0083A1AB /* User.swift */; };
+		E7D4282C417A37B2A9C1B0EF /* Pods_finalChatGiulioTavella.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03F61D6B1C914E86A64D29F /* Pods_finalChatGiulioTavella.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82F0E825218231EF19C24032 /* Pods-finalChatGiulioTavella.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finalChatGiulioTavella.release.xcconfig"; path = "Pods/Target Support Files/Pods-finalChatGiulioTavella/Pods-finalChatGiulioTavella.release.xcconfig"; sourceTree = "<group>"; };
+		88C5576A1F4AD1C2007925C0 /* ControllerIniziale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerIniziale.swift; sourceTree = "<group>"; };
+		88C5577C1F4AD700007925C0 /* DTTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTTextField.swift; sourceTree = "<group>"; };
+		88C557801F4ADB39007925C0 /* segoeui.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = segoeui.ttf; sourceTree = "<group>"; };
+		88C557A51F4B0BF3007925C0 /* ControllerInizialeCodice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerInizialeCodice.swift; sourceTree = "<group>"; };
+		88C557A71F4B1228007925C0 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		B608FF441EDC7DC40019E475 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		B608FF461EDC7EC70019E475 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B608FF481EDD8CDF0019E475 /* ChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		B608FF4A1EDD8D7C0019E475 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		B60E78F41EDC7313001D0128 /* ChatLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		B6362F031ED999BA00C40EE4 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		B653DBCF1EDD98BC00A8B533 /* finalChatGiulioTavella.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = finalChatGiulioTavella.entitlements; sourceTree = "<group>"; };
+		B6C71CC31EC8D9DC00C3167C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B6C71CC51ECA4C0400C3167C /* NewMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
+		B6C74D0A1EC3A8BD0085C4B6 /* finalChatGiulioTavella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalChatGiulioTavella.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C74D0D1EC3A8BD0085C4B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6C74D0F1EC3A8BD0085C4B6 /* MessagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
+		B6C74D121EC3A8BD0085C4B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6C74D151EC3A8BD0085C4B6 /* finalChatGiulioTavella.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = finalChatGiulioTavella.xcdatamodel; sourceTree = "<group>"; };
+		B6C74D1A1EC3A8BD0085C4B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6C74D1C1EC3A8BD0085C4B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6C74D231EC3AB6B0085C4B6 /* LogInController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInController.swift; sourceTree = "<group>"; };
+		B6EC28871ECD7CB500A321C2 /* LoginController+handlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoginController+handlers.swift"; sourceTree = "<group>"; };
+		B6FFA09F1ECA55DB0083A1AB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D03F61D6B1C914E86A64D29F /* Pods_finalChatGiulioTavella.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_finalChatGiulioTavella.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E88D9B0A5E99F153D06EF258 /* Pods-finalChatGiulioTavella.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-finalChatGiulioTavella.debug.xcconfig"; path = "Pods/Target Support Files/Pods-finalChatGiulioTavella/Pods-finalChatGiulioTavella.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6C74D071EC3A8BD0085C4B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D4282C417A37B2A9C1B0EF /* Pods_finalChatGiulioTavella.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88C557671F4AC860007925C0 /* Controller Iniziali */ = {
+			isa = PBXGroup;
+			children = (
+				88C5576A1F4AD1C2007925C0 /* ControllerIniziale.swift */,
+				88C557A51F4B0BF3007925C0 /* ControllerInizialeCodice.swift */,
+			);
+			name = "Controller Iniziali";
+			sourceTree = "<group>";
+		};
+		88C5577E1F4AD725007925C0 /* CUSTOMTEXTFIELD */ = {
+			isa = PBXGroup;
+			children = (
+				88C5577C1F4AD700007925C0 /* DTTextField.swift */,
+			);
+			name = CUSTOMTEXTFIELD;
+			sourceTree = "<group>";
+		};
+		88C5577F1F4ADB26007925C0 /* Font/Util */ = {
+			isa = PBXGroup;
+			children = (
+				88C557A71F4B1228007925C0 /* Util.swift */,
+				88C557801F4ADB39007925C0 /* segoeui.ttf */,
+			);
+			name = Font/Util;
+			sourceTree = "<group>";
+		};
+		B355B765A5CC1CBA6BE386A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E88D9B0A5E99F153D06EF258 /* Pods-finalChatGiulioTavella.debug.xcconfig */,
+				82F0E825218231EF19C24032 /* Pods-finalChatGiulioTavella.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6362F021ED9999800C40EE4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B6362F031ED999BA00C40EE4 /* Extension.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		B6C74D011EC3A8BD0085C4B6 = {
+			isa = PBXGroup;
+			children = (
+				B6C74D0C1EC3A8BD0085C4B6 /* finalChatGiulioTavella */,
+				B6C74D0B1EC3A8BD0085C4B6 /* Products */,
+				B355B765A5CC1CBA6BE386A8 /* Pods */,
+				ED5C4524A339FBB919D638D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6C74D0B1EC3A8BD0085C4B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6C74D0A1EC3A8BD0085C4B6 /* finalChatGiulioTavella.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6C74D0C1EC3A8BD0085C4B6 /* finalChatGiulioTavella */ = {
+			isa = PBXGroup;
+			children = (
+				88C5577F1F4ADB26007925C0 /* Font/Util */,
+				88C5577E1F4AD725007925C0 /* CUSTOMTEXTFIELD */,
+				88C557671F4AC860007925C0 /* Controller Iniziali */,
+				B653DBCF1EDD98BC00A8B533 /* finalChatGiulioTavella.entitlements */,
+				B6362F021ED9999800C40EE4 /* Helpers */,
+				B6EC28861ECC9D0300A321C2 /* Model */,
+				B6C74D221EC3AB3D0085C4B6 /* Controller Messaggistica */,
+				B6C74D0D1EC3A8BD0085C4B6 /* AppDelegate.swift */,
+				B608FF461EDC7EC70019E475 /* Assets.xcassets */,
+				B6C74D111EC3A8BD0085C4B6 /* Main.storyboard */,
+				B6C71CC31EC8D9DC00C3167C /* GoogleService-Info.plist */,
+				B6C74D191EC3A8BD0085C4B6 /* LaunchScreen.storyboard */,
+				B6C74D1C1EC3A8BD0085C4B6 /* Info.plist */,
+				B6C74D141EC3A8BD0085C4B6 /* finalChatGiulioTavella.xcdatamodeld */,
+			);
+			path = finalChatGiulioTavella;
+			sourceTree = "<group>";
+		};
+		B6C74D221EC3AB3D0085C4B6 /* Controller Messaggistica */ = {
+			isa = PBXGroup;
+			children = (
+				B6C74D231EC3AB6B0085C4B6 /* LogInController.swift */,
+				B60E78F41EDC7313001D0128 /* ChatLogController.swift */,
+				B6C74D0F1EC3A8BD0085C4B6 /* MessagesController.swift */,
+				B6C71CC51ECA4C0400C3167C /* NewMessageController.swift */,
+				B6EC28871ECD7CB500A321C2 /* LoginController+handlers.swift */,
+			);
+			name = "Controller Messaggistica";
+			sourceTree = "<group>";
+		};
+		B6EC28861ECC9D0300A321C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6FFA09F1ECA55DB0083A1AB /* User.swift */,
+				B608FF441EDC7DC40019E475 /* Message.swift */,
+				B608FF481EDD8CDF0019E475 /* ChatMessageCell.swift */,
+				B608FF4A1EDD8D7C0019E475 /* UserCell.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		ED5C4524A339FBB919D638D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D03F61D6B1C914E86A64D29F /* Pods_finalChatGiulioTavella.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6C74D091EC3A8BD0085C4B6 /* finalChatGiulioTavella */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C74D1F1EC3A8BD0085C4B6 /* Build configuration list for PBXNativeTarget "finalChatGiulioTavella" */;
+			buildPhases = (
+				CB75F3C5A22B915FE3389EEA /* [CP] Check Pods Manifest.lock */,
+				B6C74D061EC3A8BD0085C4B6 /* Sources */,
+				B6C74D071EC3A8BD0085C4B6 /* Frameworks */,
+				B6C74D081EC3A8BD0085C4B6 /* Resources */,
+				85F7D5C42478C0F9E3E0B3F9 /* [CP] Embed Pods Frameworks */,
+				D3DCE9EC029541110406368F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = finalChatGiulioTavella;
+			productName = finalChatGiulioTavella;
+			productReference = B6C74D0A1EC3A8BD0085C4B6 /* finalChatGiulioTavella.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6C74D021EC3A8BD0085C4B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Giulio Tavella";
+				TargetAttributes = {
+					B6C74D091EC3A8BD0085C4B6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W6VS4VYA7Q;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B6C74D051EC3A8BD0085C4B6 /* Build configuration list for PBXProject "finalChatGiulioTavella" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6C74D011EC3A8BD0085C4B6;
+			productRefGroup = B6C74D0B1EC3A8BD0085C4B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6C74D091EC3A8BD0085C4B6 /* finalChatGiulioTavella */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6C74D081EC3A8BD0085C4B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C557811F4ADBBC007925C0 /* segoeui.ttf in Resources */,
+				B6C74D1B1EC3A8BD0085C4B6 /* LaunchScreen.storyboard in Resources */,
+				B6C71CC41EC8D9DC00C3167C /* GoogleService-Info.plist in Resources */,
+				B608FF471EDC7EC70019E475 /* Assets.xcassets in Resources */,
+				B6C74D131EC3A8BD0085C4B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85F7D5C42478C0F9E3E0B3F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-finalChatGiulioTavella/Pods-finalChatGiulioTavella-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-finalChatGiulioTavella/Pods-finalChatGiulioTavella-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB75F3C5A22B915FE3389EEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-finalChatGiulioTavella-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3DCE9EC029541110406368F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-finalChatGiulioTavella/Pods-finalChatGiulioTavella-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6C74D061EC3A8BD0085C4B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60E78F51EDC7313001D0128 /* ChatLogController.swift in Sources */,
+				B6362F041ED999BA00C40EE4 /* Extension.swift in Sources */,
+				B6C74D101EC3A8BD0085C4B6 /* MessagesController.swift in Sources */,
+				88C557A81F4B1228007925C0 /* Util.swift in Sources */,
+				B6C71CC61ECA4C0400C3167C /* NewMessageController.swift in Sources */,
+				B6EC28881ECD7CB500A321C2 /* LoginController+handlers.swift in Sources */,
+				B6FFA0A01ECA55DB0083A1AB /* User.swift in Sources */,
+				B6C74D241EC3AB6B0085C4B6 /* LogInController.swift in Sources */,
+				88C5576B1F4AD1C2007925C0 /* ControllerIniziale.swift in Sources */,
+				B608FF491EDD8CDF0019E475 /* ChatMessageCell.swift in Sources */,
+				B608FF4B1EDD8D7C0019E475 /* UserCell.swift in Sources */,
+				88C557A61F4B0BF3007925C0 /* ControllerInizialeCodice.swift in Sources */,
+				B608FF451EDC7DC40019E475 /* Message.swift in Sources */,
+				88C5577D1F4AD700007925C0 /* DTTextField.swift in Sources */,
+				B6C74D161EC3A8BD0085C4B6 /* finalChatGiulioTavella.xcdatamodeld in Sources */,
+				B6C74D0E1EC3A8BD0085C4B6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6C74D111EC3A8BD0085C4B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C74D121EC3A8BD0085C4B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6C74D191EC3A8BD0085C4B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C74D1A1EC3A8BD0085C4B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6C74D1D1EC3A8BD0085C4B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6C74D1E1EC3A8BD0085C4B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6C74D201EC3A8BD0085C4B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E88D9B0A5E99F153D06EF258 /* Pods-finalChatGiulioTavella.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = finalChatGiulioTavella/finalChatGiulioTavella.entitlements;
+				DEVELOPMENT_TEAM = W6VS4VYA7Q;
+				INFOPLIST_FILE = finalChatGiulioTavella/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giuliotavella.finalChatGiulioTavella;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B6C74D211EC3A8BD0085C4B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82F0E825218231EF19C24032 /* Pods-finalChatGiulioTavella.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = finalChatGiulioTavella/finalChatGiulioTavella.entitlements;
+				DEVELOPMENT_TEAM = W6VS4VYA7Q;
+				INFOPLIST_FILE = finalChatGiulioTavella/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giuliotavella.finalChatGiulioTavella;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6C74D051EC3A8BD0085C4B6 /* Build configuration list for PBXProject "finalChatGiulioTavella" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C74D1D1EC3A8BD0085C4B6 /* Debug */,
+				B6C74D1E1EC3A8BD0085C4B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C74D1F1EC3A8BD0085C4B6 /* Build configuration list for PBXNativeTarget "finalChatGiulioTavella" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C74D201EC3A8BD0085C4B6 /* Debug */,
+				B6C74D211EC3A8BD0085C4B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B6C74D141EC3A8BD0085C4B6 /* finalChatGiulioTavella.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B6C74D151EC3A8BD0085C4B6 /* finalChatGiulioTavella.xcdatamodel */,
+			);
+			currentVersion = B6C74D151EC3A8BD0085C4B6 /* finalChatGiulioTavella.xcdatamodel */;
+			path = finalChatGiulioTavella.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B6C74D021EC3A8BD0085C4B6 /* Project object */;
+}
